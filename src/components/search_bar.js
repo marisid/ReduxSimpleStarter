@@ -8,7 +8,8 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div>
+      // good practice to have the class name be the same to the component name
+      <div className="search-bar">
         <input
           value={this.state.term}
           onChange={this.onInputChange.bind(this)} />
